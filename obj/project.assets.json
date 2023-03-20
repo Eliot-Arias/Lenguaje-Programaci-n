@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Alumno\\.nuget\\packages\\": {},
+    "C:\\Users\\ratworld\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Hiuston\\primeraAplicacion\\primeraAplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\ratworld\\source\\repos\\Lenguaje-Programaci-n\\primeraAplicacion.csproj",
       "projectName": "primeraAplicacion",
-      "projectPath": "C:\\Hiuston\\primeraAplicacion\\primeraAplicacion.csproj",
-      "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Hiuston\\primeraAplicacion\\obj\\",
+      "projectPath": "C:\\Users\\ratworld\\source\\repos\\Lenguaje-Programaci-n\\primeraAplicacion.csproj",
+      "packagesPath": "C:\\Users\\ratworld\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ratworld\\source\\repos\\Lenguaje-Programaci-n\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ratworld\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,7 +33,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

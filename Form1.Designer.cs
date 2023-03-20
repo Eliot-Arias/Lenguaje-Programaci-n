@@ -32,6 +32,7 @@
             button2 = new Button();
             button3 = new Button();
             label1 = new Label();
+            btnSingletonImpresora = new Button();
             SuspendLayout();
             // 
             // button1
@@ -68,17 +69,28 @@
             // 
             label1.AutoSize = true;
             label1.Location = new Point(64, 49);
-            label1.Name = "lblMenu";
+            label1.Name = "label1";
             label1.Size = new Size(38, 15);
             label1.TabIndex = 3;
             label1.Text = "Menu";
-            label1.Click += label1_Click;
+            // 
+            // btnSingletonImpresora
+            // 
+            btnSingletonImpresora.Location = new Point(64, 228);
+            btnSingletonImpresora.Name = "btnSingletonImpresora";
+            btnSingletonImpresora.Size = new Size(206, 23);
+            btnSingletonImpresora.TabIndex = 4;
+            btnSingletonImpresora.Text = "Singleton Impresora";
+            btnSingletonImpresora.UseVisualStyleBackColor = true;
+            btnSingletonImpresora.Click += btnSingletonImpresora_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnSingletonImpresora);
             Controls.Add(label1);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -95,5 +107,6 @@
         private Button button2;
         private Button button3;
         private Label label1;
+        private Button btnSingletonImpresora;
     }
 }
